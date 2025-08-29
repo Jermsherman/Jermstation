@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerm's Memory Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body class="menu-screen">
+  <!-- Header Info -->
+  <header class="menu-header">
+ <div class="right-label"></div>
+  <div class="left-label">JERM'S WORLD</div>
+  </header>
+
+  <!-- Avatar Grid -->
+  <section class="avatar-grid">
+    <div class="avatar" data-track="audio/1whoknew.wav">
+      <img src="images/whoknewmoneybag.png" alt="Track 1">
+      <p>Who Knew</p>
+    </div>
+    <div class="avatar" data-track="audio/burningupmysoul.wav">
+      <img src="images/burningupmysoul.png" alt="Track 2">
+      <p>Burning Up My Soul</p>
+    </div>
+    <div class="avatar" data-track="audio/playboyinterlude.wav">
+      <img src="images/playboy.png" alt="Track 3">
+      <p>Playboy Interlude</p>
+    </div>
+    <div class="avatar" data-track="audio/pieces.mp3">
+      <img src="images/pieces.png" alt="Track 4">
+      <p>Pieces</p>
+    </div>
+      <div class="avatar" data-track="audio/elephants.mp3">
+      <img src="images/elephants.png" alt="Track 4">
+      <p>Elephants In My Room</p>
+    </div>
+  </section>
+
+  <!-- Audio Player (hidden initially) -->
+  <div id="player" class="audio-player hidden">
+    <audio controls id="audio"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
